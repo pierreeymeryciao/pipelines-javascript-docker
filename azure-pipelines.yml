@@ -13,5 +13,5 @@ steps:
   inputs:
     containerRegistry: 'TestWebAppPierreEymeryCiaoacr'
     repository: '$(imageName)'
-    command: 'buildAndPush'
+    command: 'build'
     Dockerfile: 'app/Dockerfile'
